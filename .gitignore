@@ -1,0 +1,18 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Data and outputs (keep repo light)
+data/processed/
+outputs/
+*.ckpt
+*.pt
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
