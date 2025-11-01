@@ -1,0 +1,9 @@
+opencv-python
+numpy
+matplotlib
+pandas
+torch
+torchvision
+pyyaml
+labelImg
+# YOLOv5/Ultralytics will be cloned during training on Colab
