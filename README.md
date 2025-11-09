@@ -27,6 +27,12 @@ This project aims to detect vehicles that enter restricted pedestrian-only areas
 ## Expected Output
 A trained AI model that can detect vehicles entering restricted pedestrian-only zones from static images or CCTV frames. The output will display bounding boxes around detected vehicles and a confidence score.
 
+### Week-2 Progress
+- Integrated YOLOv5 training script (see `scripts/train_yolov5.py`)
+- Dataset from Roboflow (YOLOv5 format) stored under `data/raw`
+- Added sample training and detection results in `outputs/`
+- Model aims to detect vehicles entering pedestrian zones
+
 ## Dataset Source
 Dataset partially sourced from Roboflow Universe:
 [Vehicle Detection Dataset on Roboflow](https://universe.roboflow.com/final-project-7gql2/vehicle-detection-i66s2)
